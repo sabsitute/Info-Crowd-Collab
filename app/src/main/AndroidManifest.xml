@@ -15,18 +15,18 @@
         android:theme="@style/Theme.MyApplication2"
         android:usesCleartextTraffic="true"
         tools:targetApi="31" >
-
+        <activity
+            android:name=".BitcoinActivity"
+            android:exported="false" />
         <activity
             android:name=".SplashActivity"
-            android:exported="true">
-
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".AboutActivity"
             android:exported="false" />

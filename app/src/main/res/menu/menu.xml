@@ -10,4 +10,7 @@
         android:id="@+id/about"
         android:icon="@android:drawable/ic_menu_info_details"
         android:title="About" />
+    <item
+        android:id="@+id/bitcoin"
+        android:title="Bitcoin" />
 </menu>
