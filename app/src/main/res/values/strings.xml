@@ -9,4 +9,10 @@
     <string name="farah">Nur Farahhani binti Mohamad Salahuddin (2022949823)</string>
     <string name="bek">Nur Izah Izzati binti Ahmad Johari (2022923759)</string>
     <string name="sab">Nur Sabrina binti Azran (2022972727)</string>
+
+    <string name="hyperlink">
+    <a href="https://github.com/sabsitute/Info-Crowd-Collab">Source Code</a>
+
+    </string>
+
 </resources>

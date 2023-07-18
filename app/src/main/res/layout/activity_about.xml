@@ -89,4 +89,13 @@
         android:text="@string/sab"
         android:textAllCaps="true"
         android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:text="@string/hyperlink" />
 </RelativeLayout>
