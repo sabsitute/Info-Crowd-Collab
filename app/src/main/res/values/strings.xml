@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">InfoCrowdCollab</string>
+    <string name="etName">Name</string>
+    <string name="etEmail">Email</string>
+    <string name="etComments">Reports</string>
+    <string name="copyright">Copyright &#169; 2023 NetDesign Application</string>
+    <string name="prepared">Prepared by:</string>
+    <string name="erna">Erna Nur Syazlina binti Nurkolis (2022923897)</string>
+    <string name="farah">Nur Farahhani binti Mohamad Salahuddin (2022949823)</string>
+    <string name="bek">Nur Izah Izzati binti Ahmad Johari (2022923759)</string>
+    <string name="sab">Nur Sabrina binti Azran (2022972727)</string>
+</resources>
