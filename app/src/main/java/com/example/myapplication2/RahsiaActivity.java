@@ -172,6 +172,14 @@ public class RahsiaActivity extends AppCompatActivity implements View.OnClickLis
 
                 break;
 
+            case R.id.bitcoin:
+
+                //Toast.makeText(this,"You are in bitcoin price page.",Toast.LENGTH_LONG).show();
+                intent = new Intent(this, BitcoinActivity.class);
+                startActivity(intent);
+
+                break;
+
         }
 
         return super.onOptionsItemSelected(item);
