@@ -43,9 +43,8 @@ public class RahsiaActivity extends AppCompatActivity implements View.OnClickLis
     GoogleSignInClient mGoogleSignInClient;
     String name, email;
     EditText etName, etEmail, etComments;
-
     RequestQueue queue;
-    final String URL = "http://192.168.1.7/comments/api.php";
+    final String URL = "http://192.168.1.1/comments/api.php";
 
 
     @Override
@@ -53,6 +52,7 @@ public class RahsiaActivity extends AppCompatActivity implements View.OnClickLis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rahsia);
 
+        queue = Volley.newRequestQueue(getApplicationContext());
         TextView tvName = (TextView) findViewById(R.id.tvName);
 
 
@@ -74,9 +74,9 @@ public class RahsiaActivity extends AppCompatActivity implements View.OnClickLis
 
         queue = Volley.newRequestQueue(getApplicationContext());
 
-        etName = findViewById(R.id.etName);
-        etEmail = findViewById(R.id.etEmail);
-        etComments = findViewById(R.id.etComments);
+        etName = (EditText) findViewById(R.id.etName);
+        etEmail = (EditText) findViewById(R.id.etEmail);
+        etComments = (EditText) findViewById(R.id.etComments);
 
         Button button = (Button) findViewById(R.id.btnSubmit);
 
