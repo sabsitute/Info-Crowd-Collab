@@ -44,7 +44,7 @@ public class RahsiaActivity extends AppCompatActivity implements View.OnClickLis
     String name, email;
     EditText etName, etEmail, etComments;
     RequestQueue queue;
-    final String URL = "http://192.168.1.1/comments/api.php";
+    final String URL = "http://192.168.1.7/comments/api.php";
 
 
     @Override
@@ -57,7 +57,7 @@ public class RahsiaActivity extends AppCompatActivity implements View.OnClickLis
 
 
         name = getIntent().getStringExtra("Name");
-        email = getIntent().getStringExtra("Email");
+        //email = getIntent().getStringExtra("Email");
 
         tvName.setText(name);
 
